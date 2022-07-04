@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#270082, #161638);
+    background-image: linear-gradient(#00057C, #000021);
     margin: 0px 0px 0px 0px;
     text-align: center;
     color: #ecf0ef;
@@ -15,23 +15,34 @@ body{
 }
 
 div.top-container{
-    padding-top: 80px;
     padding-bottom: 65px;
 }
 
-div.profile img{
-    border-radius: 100%;
+.profile{
+    padding: 2% 10%;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
-div.profile, div.skills, div.contact-me, div.container-fluid{
+.profile h2, .profile p{
+    text-align: left;
+}
+
+.profile img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+div.profile, div.skills, div.container-fluid{
     box-shadow: 0em 0em 0.5em rgba(0, 0, 0, 0.548);
 }
 
-div.profile,
-div.skills,
-div.contact-me{
+
+div.skills{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 div.bottom-container{
@@ -40,20 +51,22 @@ div.bottom-container{
     padding-bottom: 5px;
 }
 
-div.bottom-container p{
-    color: #eaf6f6b0;
-    margin-top: 30px;
-    font-size: 0.85rem;
+div.bottom-container h2{
+    color: #000000;
 }
 
-.profile p{
-    color: #ecf0ef;
-    width: 30%;
-    margin: auto;
+div.bottom-container #copy{
+    color: #000000b0;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+div.bottom-container a {
+    font-size: 1.5em;
 }
 
 p{
-    line-height: 1.3;
+    line-height: 2;
 }
 
 hr{
@@ -76,21 +89,22 @@ img#imgLogo {
 }
 
 .img-computer{
-    width: 25%;
+    width: 18%;
     float: left;
     margin-right: 30px;
 }
 
 .img-chillies {
-    width: 25%;
+    width: 18%;
     float: right;
     margin-left: 30px;
 }
 
 #h1main {
     color: #66BFBF;
-    font-size: 4rem;
-    font-family: 'Roboto Mono', monospace; 
+    font-size: 3.5rem;
+    font-family: 'Roboto Mono';
+    font-weight: bold; 
     line-height: 2;
     margin: 50px auto 0px auto;
 }
@@ -106,7 +120,6 @@ h2{
     font-family: 'Roboto Mono', monospace;
     font-size: 2.5rem;
     font-weight: normal;
-    margin-bottom: 50px;
 }
 
 h3{
@@ -115,11 +128,10 @@ h3{
     font-weight: normal;
 }
 
-.footer-link{
-    color: #11999E;
+.footer-link, div.bottom-container p{
+    color: #000000;
     margin: auto 50px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
     text-decoration: none;
 }
 
@@ -134,7 +146,7 @@ li{
 
 div.skill-row{
     margin: 100px auto;
-    width: 50%;
+    padding: 2% 10%;
     text-align: left;
 }
 
@@ -157,8 +169,9 @@ div.skill-row{
     box-shadow: 3px 3px 4px #161616a8;
     font-family: 'Roboto Mono', monospace;
     color: #000000;
-    font-size: 17px;
-    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    margin-top: 50px;
     text-decoration: none;
 }
 
@@ -172,12 +185,71 @@ div.skill-row{
     text-decoration: none;
 }
 
-.contact-me{
-    padding-bottom: 50px;
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+    #h1main{
+        font-size: 2.7rem;
+    }
+
+    h2{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .profile p{
+        text-align: center;
+    }
+
+    .img-chillies, .img-computer{
+        width: 150px;
+        margin-bottom: 100px;
+    }
+    div.profile img {
+        float: none;
+        display: block;
+        margin: 0px auto 50px;
+    }
 }
 
-.contact-me p{
-    width: 40%;
-    margin: auto;
-    margin-bottom: 50px;
+@media (max-width: 566px){
+    .footer-link {
+        margin: auto 25px;
+        }
+}
+
+/* Mobile */
+@media (max-width: 503px) {
+    h2, h3, p{
+        text-align: center;
+    }
+
+    #h1main {
+        font-size: 2.2rem;
+    }
+    .img-chillies,
+    .img-computer {
+        width: 0px;
+        margin: 0px;
+    }
+
+    div.profile img{
+        float: none;
+        display: block;
+        margin: 0px auto 50px;
+    }
+}
+
+@media (max-width: 416px) {
+    .footer-link {
+        margin: auto 15px;
+    }
+}
+
+@media (max-width: 356px) {
+    .footer-link {
+        margin: auto 5px;
+    }
 }
