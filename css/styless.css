@@ -28,7 +28,7 @@ div.top-container {
 }
 
 .profile p {
-    text-align: left;
+    text-align: center;
 }
 
 .profile img {
@@ -74,12 +74,18 @@ div.bottom-container a {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.3;
     text-align: center;
 }
 
+#elementoPaiImgStadista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imgStadista{
-    width: 50%;
+    width: 85%;
 }
 
 hr {
@@ -136,12 +142,18 @@ img#imgLogo {
     padding: 0% 10%;
 }
 
-#carouselExampleControls a{
-    width: 10%;
+/* SECTION reasons */
+#reasons{
+    background-color: #01010c;
 }
 
-#carouselExampleControls a:hover{
-    background-color: rgba(255, 255, 255, 0.397);
+#reasons h2{
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#reasons button:hover {
+    background-color: rgba(255, 255, 255, 0.199);
 }
 
 h2 {
@@ -177,10 +189,6 @@ li {
 div.skill-row {
     margin: 100px auto;
     padding: 2% 10%;
-}
-
-.skills h2 {
-    /* padding: 2% 10%; */
 }
 
 #skill-row1 {
