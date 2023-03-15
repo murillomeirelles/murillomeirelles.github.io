@@ -58,7 +58,25 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-626402318');
-</script>
+    </script>
+
+    <!-- Event snippet for Clique no Botão CTA conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-626402318/Wk_bCLy7kJIYEI7I2KoC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
 
 
 </head>
@@ -91,7 +109,7 @@
 
             <div class="top-container">
                 <h1 id="h1main">Melhore os resultados do seu negócio com anúncios online.</h1>
-                <a class="btn" id="botaoPrincipal" href="http://wa.me/5544988205298" target="_blank"><i class="fa-brands fa-whatsapp"></i> Entre em contato</a>
+                <a class="btn" id="botaoPrincipal" href="http://wa.me/5544988205298" target="_blank" onclick="gtag_report_conversion()"><i class="fa-brands fa-whatsapp"></i> Entre em contato</a>
             </div>
 
         </div>
