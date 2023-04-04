@@ -1,0 +1,340 @@
+body {
+    /* background-image: linear-gradient(#00057C, #000021);  */
+    background-color: #00057C;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+hr {
+    border-top: 0.1rem solid #ffffff3f;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    -webkit-box-shadow: 3px 3px 4px #726f78;
+    -moz-box-shadow: 3px 3px 4px #726f78;
+    box-shadow: 3px 3px 4px #161616a8;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    color: #000000;
+    padding: 1% 2.5% 1% 2.5%;
+    margin-top: 4%;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/* PADDINGS */
+#main,
+#reasons,
+#about,
+#footer{
+    padding: 5% 12% 5% 12%;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#h1main {
+    color: #66BFBF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+h3 {
+    /* color: #ffffff; */
+    font-weight: normal;
+}
+
+p {
+    margin: 0%;
+}
+
+#pMain {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+
+/* MAIN SECTION */
+#main{
+    background-image: linear-gradient(#00057C, #000021);
+}
+
+.top-container{
+    text-align: justify;
+    margin-top: 3%;
+}
+
+img#imgLogo {
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 0.8em rgba(0, 0, 0, 0.548);
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+/* SECTION reasons */
+#reasons{
+    background-color: #01010c;
+}
+
+#reasons h2{
+    text-align: justify;
+}
+
+.pReasons{
+    text-align: justify;
+    align-items: center;
+    margin: 0%;
+}
+
+.divImgStadista{
+    padding: 5%;
+}
+
+/* SECTION ABOUT PROFILE */
+#about {
+    background-image: linear-gradient(#000021, #00057C);
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.profile img {
+    border-radius: 100%;
+    margin-bottom: 2%;
+}
+
+/* SECTION FOOTER */
+.footer-link,
+div.bottom-container p {
+    color: #000000;
+    margin: auto 7%;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+#footer i{
+    font-size: 2.5rem;
+}
+
+div.bottom-container h2 {
+    color: #000000;
+}
+
+div.bottom-container #copy {
+    color: rgba(255, 255, 255, 0.514);
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
+
+#footer{
+    background-color: #01010c;
+}
+
+/* RESPONSIVENESS */
+/* Tablet */
+@media (max-width: 992px) {
+    #h1main {
+        font-size: 2.7rem;
+    }
+
+    #main .nav-link{
+        padding-top: 10%;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    div.profile img {
+        float: none;
+        display: block;
+        margin: 0% auto 4%;
+    }
+}
+
+@media (max-width: 768px){
+    .btn{
+        font-size: 1.6rem;
+        margin-top: 5%;
+    }
+    #h1main{
+        font-size: 2.2rem;
+        margin-bottom: 2%;
+    }
+    #pMain{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.9rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .imgStadista{
+        width: 90%;
+    }
+    #footer i{
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 570px) {
+    /* Paddings */
+    #main,
+    #reasons,
+    #about,
+    #footer{
+        padding: 9% 10% 9% 10%;
+    }
+    #h1main {
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    p, #pMain{
+        font-size: 1rem;
+    }
+    #botaoPrincipal{
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .btn,
+    #botaoPrincipal{
+        font-size: 1.6rem;
+        margin-top: 7%;
+        padding: 1.5% 3% 1.5% 3%;
+        width: 90%;
+    }
+    .imgStadista{
+        width: 80%;
+    }
+}
+
+@media (max-width: 460px) {
+    #imgLogo{
+        width: 80%;
+        display: block;
+        float: left;
+    }
+    #h1main{
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .btn,
+    #botaoPrincipal {
+        font-size: 1.4rem;
+    }
+    #about img{
+        width: 40%;
+    }
+    .footer-link{
+        margin: auto 5%;
+    }
+}
+
+@media (max-width: 417px) {
+    #main,
+    #reasons,
+    #about,
+    #footer{
+        padding: 9% 5% 9% 5%;
+    }
+    .btn,
+    #botaoPrincipal {
+            font-size: 1.2rem;
+    }
+    #h1main{
+        font-size: 1.69rem;
+    }
+    h2{
+        font-size: 1.45rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.65rem;
+    }
+    h2{
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.60rem;
+    }
+    h2{
+        font-size: 1.30rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.55rem;
+    }
+    h2{
+        font-size: 1.27rem;
+    }
+}
+
+@media (max-width: 382px) {
+    #h1main{
+        font-size: 1.45rem;
+    }
+    h2{
+        font-size: 1.23rem;
+    }
+}
+
+@media (max-width: 359px) {
+    #h1main{
+        font-size: 1.40rem;
+    }
+    div.bottom-container #copy{
+        font-size: 1rem;
+    }
+}

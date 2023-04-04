@@ -1,0 +1,193 @@
+body{
+    background-color: #1A1A40;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: #ecf0ef;
+    font-size: 1.2em;
+}
+
+div.top-container{
+    background-color: #3c045c;
+    padding-top: 80px;
+    padding-bottom: 250px;
+}
+
+div.middle-container{
+}
+
+div.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+div.bottom-container p{
+    color: #eaf6f6b0;
+    margin-top: 30px;
+    font-size: 0.85rem;
+}
+
+.profile p{
+    color: #ecf0ef;
+    width: 30%;
+    margin: auto;
+}
+
+p{
+    line-height: 1.3;
+}
+
+hr{
+    border-top: 4px dotted #EAF6F6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 100px auto;
+    width: 8%;
+}
+
+img#imgLogo {
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 0.8em rgba(0, 0, 0, 0.548);
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.img-computer{
+    border-radius: 100%;
+    width: 365px;
+    height: 365px;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-chillies {
+    width: 365px;
+    height: 365px;
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+#h1main {
+    color: #66BFBF;
+    font-size: 5rem;
+    font-family: 'Roboto Mono', monospace; Trocar de fonte
+    line-height: 2;
+    margin: 50px auto 0px auto;
+}
+
+#h2main {
+    text-align: center;
+    margin-top: 1em;
+    margin-top: 50px;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+
+.footer-link{
+    color: #11999E;
+    margin: auto 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    text-align: ;
+}
+
+div.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+#skill-row1{
+    margin-top: 50px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    -webkit-box-shadow: 3px 3px 4px #726f78;
+    -moz-box-shadow: 3px 3px 4px #726f78;
+    box-shadow: 3px 3px 4px #161616a8;
+    font-family: 'Roboto Mono', monospace;
+    color: #000000;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.contact-me{
+    padding-bottom: 50px;
+}
+
+.contact-me p{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #1A1A40;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: #ecf0ef;
+    font-size: 1.2em;
+}
+
+div.top-container{
+    background-color: #270082;
+    padding-top: 80px;
+    padding-bottom: 250px;
+}
