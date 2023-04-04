@@ -7,192 +7,11 @@ body {
     font-size: 1.2em;
 }
 
-.container-fluid {
-    padding: 2% 5%;
-    background-image: linear-gradient(#00057C, #000021);
-}
-
-.nav-item {
-    margin: 30px;
-}
-
-div.top-container {
-    padding-bottom: 65px;
-}
-
-.profile {
-    padding: 2% 5%;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    background-image: linear-gradient(#000021, #00057C);
-}
-
-.profile p {
-    text-align: center;
-}
-
-.profile img {
-    border-radius: 100%;
-    margin-bottom: 20px;
-    margin-top: 65px;
-}
-
-div.profile,
-div.skills,
-div.container-fluid {
-    box-shadow: 0em 0em 0.5em rgba(0, 0, 0, 0.548);
-}
-
-
-div.skills {
-    /* padding: 2% 20%; */
-    background-color: #01010c;
-}
-
-
-
-div.bottom-container {
-    /* background-color: #66BFBF; */
-    background-color: #01010c;
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-
-div.bottom-container h2 {
-    color: #000000;
-}
-
-div.bottom-container #copy {
-    color: white;
-    margin-top: 30px;
-    font-size: 1rem;
-}
-
-div.bottom-container a {
-    font-size: 1.5em;
-    color: white;
-}
-
-p {
-    line-height: 1.3;
-    text-align: center;
-}
-
-#elementoPaiImgStadista{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgStadista{
-    width: 85%;
-}
-
 hr {
     border-top: 0.1rem solid #ffffff3f;
     border-bottom: none;
     border-left: none;
     border-right: none;
-}
-
-img#imgLogo {
-    border-radius: 0.5em;
-    box-shadow: 0em 0em 0.8em rgba(0, 0, 0, 0.548);
-    position: relative;
-    margin: 0 auto 0 auto;
-    width: 160px;
-}
-
-.bottom-cloud {
-    position: absolute;
-}
-
-.img-computer {
-    width: 18%;
-    float: left;
-    margin-right: 30px;
-}
-
-.img-chillies {
-    width: 18%;
-    float: right;
-    margin-left: 30px;
-}
-
-#h1main {
-    color: #66BFBF;
-    font-size: 3.7rem;
-    font-family: 'Roboto Mono';
-    font-weight: bold;
-    line-height: 2;
-    margin: 50px auto 0px auto;
-}
-
-#h2main {
-    text-align: center;
-    margin-top: 1em;
-    margin-top: 50px;
-}
-
-.skills h2{
-    padding-top: 65px;
-}
-
-.carousel-inner{
-    padding: 0% 10%;
-}
-
-/* SECTION reasons */
-#reasons{
-    background-color: #01010c;
-}
-
-#reasons h2{
-    padding-top: 5%;
-    margin-bottom: 5%;
-}
-
-#reasons button:hover {
-    background-color: rgba(255, 255, 255, 0.199);
-}
-
-h2 {
-    color: #66BFBF;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2.7rem;
-    font-weight: 600;
-}
-
-h3 {
-    /* color: #ffffff; */
-    font-family: 'Roboto Mono', monospace;
-    font-weight: normal;
-}
-
-.footer-link,
-div.bottom-container p {
-    color: #000000;
-    margin: auto 50px;
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    color: #EAF6F6;
-}
-
-li {
-    display: inline-block;
-    width: 20%;
-}
-
-div.skill-row {
-    margin: 100px auto;
-    padding: 2% 10%;
-}
-
-#skill-row1 {
-    margin-top: 50px;
 }
 
 .btn {
@@ -209,11 +28,10 @@ div.skill-row {
     -moz-box-shadow: 3px 3px 4px #726f78;
     box-shadow: 3px 3px 4px #161616a8;
     font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
     color: #000000;
-    font-size: 25px;
-    padding: 10px 25px 10px 25px;
-    margin-top: 50px;
-    text-decoration: none;
+    padding: 1% 2.5% 1% 2.5%;
+    margin-top: 4%;
 }
 
 .btn:hover {
@@ -226,13 +44,134 @@ div.skill-row {
     text-decoration: none;
 }
 
+/* PADDINGS */
+#main,
+#reasons,
+#about,
+#footer{
+    padding: 5% 12% 5% 12%;
+}
 
+/* HEADINGS */
+h1,
+h2,
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
 
+#h1main {
+    color: #66BFBF;
+    font-size: 3rem;
+    font-weight: 600;
+}
 
+h2 {
+    color: #66BFBF;
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+h3 {
+    /* color: #ffffff; */
+    font-weight: normal;
+}
+
+p {
+    margin: 0%;
+}
+
+#pMain {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+
+/* MAIN SECTION */
+#main{
+    background-image: linear-gradient(#00057C, #000021);
+}
+
+.top-container{
+    text-align: justify;
+    margin-top: 3%;
+}
+
+img#imgLogo {
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 0.8em rgba(0, 0, 0, 0.548);
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+/* SECTION reasons */
+#reasons{
+    background-color: #01010c;
+}
+
+#reasons h2{
+    text-align: justify;
+}
+
+.pReasons{
+    text-align: justify;
+    align-items: center;
+    margin: 0%;
+}
+
+.divImgStadista{
+    padding: 5%;
+}
+
+/* SECTION ABOUT PROFILE */
+#about {
+    background-image: linear-gradient(#000021, #00057C);
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.profile img {
+    border-radius: 100%;
+    margin-bottom: 2%;
+}
+
+/* SECTION FOOTER */
+.footer-link,
+div.bottom-container p {
+    color: #000000;
+    margin: auto 7%;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+#footer i{
+    font-size: 2.5rem;
+}
+
+div.bottom-container h2 {
+    color: #000000;
+}
+
+div.bottom-container #copy {
+    color: rgba(255, 255, 255, 0.514);
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
+
+#footer{
+    background-color: #01010c;
+}
+
+/* RESPONSIVENESS */
 /* Tablet */
 @media (max-width: 992px) {
     #h1main {
         font-size: 2.7rem;
+    }
+
+    #main .nav-link{
+        padding-top: 10%;
     }
 
     h2 {
@@ -240,63 +179,162 @@ div.skill-row {
         text-align: center;
     }
 
-    .profile p {
-        text-align: center;
-    }
-
-    .img-chillies,
-    .img-computer {
-        width: 150px;
-        margin-bottom: 100px;
-    }
-
     div.profile img {
         float: none;
         display: block;
-        margin: 0px auto 50px;
+        margin: 0% auto 4%;
     }
 }
 
-@media (max-width: 566px) {
-    .footer-link {
-        margin: auto 25px;
+@media (max-width: 768px){
+    .btn{
+        font-size: 1.6rem;
+        margin-top: 5%;
+    }
+    #h1main{
+        font-size: 2.2rem;
+        margin-bottom: 2%;
+    }
+    #pMain{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.9rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .imgStadista{
+        width: 90%;
+    }
+    #footer i{
+        font-size: 2rem;
     }
 }
 
 /* Mobile */
-@media (max-width: 503px) {
-
-    h2,
-    h3,
-    p {
-        text-align: center;
+@media (max-width: 570px) {
+    /* Paddings */
+    #main,
+    #reasons,
+    #about,
+    #footer{
+        padding: 9% 10% 9% 10%;
     }
-
     #h1main {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        margin-bottom: 3%;
     }
-
-    .img-chillies,
-    .img-computer {
-        width: 0px;
-        margin: 0px;
+    h2{
+        font-size: 1.8rem;
     }
-
-    div.profile img {
-        float: none;
+    p, #pMain{
+        font-size: 1rem;
+    }
+    #botaoPrincipal{
         display: block;
-        margin: 0px auto 50px;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .btn,
+    #botaoPrincipal{
+        font-size: 1.6rem;
+        margin-top: 7%;
+        padding: 1.5% 3% 1.5% 3%;
+        width: 90%;
+    }
+    .imgStadista{
+        width: 80%;
     }
 }
 
-@media (max-width: 416px) {
-    .footer-link {
-        margin: auto 15px;
+@media (max-width: 460px) {
+    #imgLogo{
+        width: 80%;
+        display: block;
+        float: left;
+    }
+    #h1main{
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .btn,
+    #botaoPrincipal {
+        font-size: 1.4rem;
+    }
+    #about img{
+        width: 40%;
+    }
+    .footer-link{
+        margin: auto 5%;
     }
 }
 
-@media (max-width: 356px) {
-    .footer-link {
-        margin: auto 5px;
+@media (max-width: 417px) {
+    #main,
+    #reasons,
+    #about,
+    #footer{
+        padding: 9% 5% 9% 5%;
+    }
+    .btn,
+    #botaoPrincipal {
+            font-size: 1.2rem;
+    }
+    #h1main{
+        font-size: 1.69rem;
+    }
+    h2{
+        font-size: 1.45rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.65rem;
+    }
+    h2{
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.60rem;
+    }
+    h2{
+        font-size: 1.30rem;
+    }
+}
+
+@media (max-width: 413px) {
+    #h1main{
+        font-size: 1.55rem;
+    }
+    h2{
+        font-size: 1.27rem;
+    }
+}
+
+@media (max-width: 382px) {
+    #h1main{
+        font-size: 1.45rem;
+    }
+    h2{
+        font-size: 1.23rem;
+    }
+}
+
+@media (max-width: 359px) {
+    #h1main{
+        font-size: 1.40rem;
+    }
+    div.bottom-container #copy{
+        font-size: 1rem;
     }
 }
