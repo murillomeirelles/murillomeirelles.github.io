@@ -27,11 +27,12 @@ hr {
     -webkit-box-shadow: 3px 3px 4px #726f78;
     -moz-box-shadow: 3px 3px 4px #726f78;
     box-shadow: 3px 3px 4px #161616a8;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
     color: #000000;
     padding: 1% 2.5% 1% 2.5%;
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .btn:hover {
@@ -53,23 +54,24 @@ hr {
 }
 
 /* HEADINGS */
-h1,
+#h1main,
 h2,
 h3{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
 }
 
 #h1main {
     color: #66BFBF;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: bold;
+    margin-top: 5%;
 }
 
 h2 {
     color: #66BFBF;
     font-size: 2.7rem;
     font-weight: 600;
-    margin-bottom: 2%;
 }
 
 h3 {
@@ -119,7 +121,7 @@ img#imgLogo {
 }
 
 .divImgStadista{
-    padding: 5%;
+    margin: 6% auto;
 }
 
 /* SECTION ABOUT PROFILE */
@@ -159,6 +161,28 @@ div.bottom-container #copy {
     font-size: 1.3rem;
 }
 
+#linkFacebook{
+    color: #3b5998;
+}
+
+#linkWhatsapp{
+    color: #25d366;
+}
+
+#linkGmail{
+    color: #db4a39;
+}
+
+#linkLinkedin{
+    color: #0e76a8;
+}
+
+i.fa-brands:hover{
+    text-decoration: none;
+    color: #ffffff;
+    animation: fa-beat 0.7s infinite;
+}
+
 #footer{
     background-color: #01010c;
 }
@@ -168,17 +192,15 @@ div.bottom-container #copy {
 @media (max-width: 992px) {
     #h1main {
         font-size: 2.7rem;
-    }
-
-    #main .nav-link{
-        padding-top: 10%;
+        margin-top: 8%;
     }
 
     h2 {
         font-size: 2.2rem;
-        text-align: center;
     }
-
+    .btn{
+        margin-top: 10%;
+    }
     div.profile img {
         float: none;
         display: block;
@@ -189,17 +211,21 @@ div.bottom-container #copy {
 @media (max-width: 768px){
     .btn{
         font-size: 1.6rem;
-        margin-top: 5%;
+        margin-top: 8%;
+    }
+    #h1main,
+    h2{
+        letter-spacing: -0.18rem;
     }
     #h1main{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         margin-bottom: 2%;
     }
     #pMain{
         font-size: 1.2rem;
     }
     h2{
-        font-size: 1.9rem;
+        font-size: 2.25rem;
     }
     p{
         font-size: 1.1rem;
@@ -246,26 +272,41 @@ div.bottom-container #copy {
     .imgStadista{
         width: 80%;
     }
-}
-
-@media (max-width: 460px) {
     #imgLogo{
         width: 80%;
         display: block;
         float: left;
     }
+}
+
+@media (max-width: 460px) {
+    #main,
+    #reasons,
+    #about,
+    #footer{
+        padding: 9% 5% 9% 5%;
+    }
+    #imgLogo{
+        width: 80%;
+    }
     #h1main{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
+        margin: 7% 0% 5% 0%;
+    }
+    #pMain{
+        color: rgb(231, 231, 231);
+        font-size: 1.15rem;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        padding-bottom: 5%;
     }
     p{
-        font-size: 0.9rem;
+        font-size: 1.05rem;
     }
     .btn,
     #botaoPrincipal {
-        font-size: 1.4rem;
+        font-size: 1.65rem;
     }
     #about img{
         width: 40%;
@@ -275,13 +316,41 @@ div.bottom-container #copy {
     }
 }
 
-@media (max-width: 417px) {
-    #main,
-    #reasons,
-    #about,
-    #footer{
-        padding: 9% 5% 9% 5%;
+@media (max-width: 385px) {
+    .btn{
+        letter-spacing: -0.1rem;
     }
+}
+
+@media (max-width: 350px) {
+    #h1main{
+        letter-spacing: -0.17rem;
+        font-size: 1.7rem;
+        margin-top: 12%;
+    }
+    h2{
+        font-size: 1.5rem;
+        letter-spacing: -0.17rem;
+    }
+    #pMain{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .btn,
+    #botaoPrincipal{
+        font-size: 1.5rem;
+        margin-top: 12%;
+    }
+    div.bottom-container #copy{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* @media (max-width: 417px) {
     .btn,
     #botaoPrincipal {
             font-size: 1.2rem;
@@ -291,24 +360,6 @@ div.bottom-container #copy {
     }
     h2{
         font-size: 1.45rem;
-    }
-}
-
-@media (max-width: 413px) {
-    #h1main{
-        font-size: 1.65rem;
-    }
-    h2{
-        font-size: 1.35rem;
-    }
-}
-
-@media (max-width: 413px) {
-    #h1main{
-        font-size: 1.60rem;
-    }
-    h2{
-        font-size: 1.30rem;
     }
 }
 
@@ -337,4 +388,4 @@ div.bottom-container #copy {
     div.bottom-container #copy{
         font-size: 1rem;
     }
-}
+} */
